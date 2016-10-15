@@ -7,7 +7,7 @@
   <body>
     <div class="">
         <ul>
-          <li>Index</li>
+          <li>Index Blog</li>
         </ul>
     </div>
   </body>

@@ -33,4 +33,11 @@ Route::group(['domain' => 'admin.cms.com'], function(){
     Route::get('/nav', 'admin\systemController@navadd');
     Route::get('/navlist', 'admin\systemController@navlist');
 
+  //分类管理
+   Route::get('/pageadd', 'admin\pageController@pageadd');
+   Route::get('/pagelist', 'admin\pageController@pagelist');
+
+  //文章管理
+  Route::get('/artadd', 'admin\articleController@artadd');
+  Route::get('/artlist', 'admin\articleController@artlist');
 });

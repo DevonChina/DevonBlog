@@ -26,22 +26,13 @@
           <li><a href="/navlist">导航列表</a></li>
           <li class="divider"></li>
           <li class="dropdown-header">文章分类</li>
-          <li><a href="../web/web-addfenlei.html">添加分类</a></li>
-          <li><a href="../web/web-fenleilist.html">分类列表</a></li>
+          <li><a href="/pageadd">添加分类</a></li>
+          <li><a href="/pagelist">分类列表</a></li>
           <li class="divider"></li>
           <li class="dropdown-header">文章管理</li>
-          <li><a href="../web/web-paraadd.html">添加文章</a></li>
-          <li><a href="../web/web-paralist.html">文章列表</a></li>
+          <li><a href="/artadd">添加文章</a></li>
+          <li><a href="/artlist">文章列表</a></li>
           <li class="divider"></li>
-        </ul>
-      </li>
-      <li role="presentation" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">数据统计 <span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="../count/count-user.html">用户数据</a></li>
-          <li><a href="../count/count-goods.html">商品数据</a></li>
-          <li><a href="../count/count-list.html">订单数据</a></li>
-          <li><a href="../count/count-finance.html">财务数据</a></li>
         </ul>
       </li>
       <div class="btn-group navbar-right">

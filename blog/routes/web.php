@@ -19,7 +19,18 @@ Route::group(['domain' => 'www.cms.com'], function(){
 });
 
 Route::group(['domain' => 'admin.cms.com'], function(){
+  //用户管理
     Route::get('/', 'admin\indexController@index');
     Route::get('/user_list', 'admin\userController@userlist');
     Route::get('/user_add', 'admin\userController@add');
+  //管理员管理
+    Route::get('/user_vip', 'admin\userController@listvip');
+    Route::get('/user_manager', 'admin\userController@manageradd');
+    Route::get('/user_manlist', 'admin\userController@managerlist');
+
+  //基本设置
+    Route::get('/setting', 'admin\systemController@index');
+    Route::get('/nav', 'admin\systemController@navadd');
+    Route::get('/navlist', 'admin\systemController@navlist');
+
 });

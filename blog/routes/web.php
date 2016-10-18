@@ -16,6 +16,8 @@
 // });
 Route::group(['domain' => 'www.cms.com'], function(){
     Route::get('/', 'home\indexController@index');
+    Route::get('/blog', 'home\blogController@index');
+    Route::get('/article', 'home\blogController@article');
 });
 
 Route::group(['domain' => 'admin.cms.com'], function(){
@@ -40,4 +42,5 @@ Route::group(['domain' => 'admin.cms.com'], function(){
   //文章管理
   Route::get('/artadd', 'admin\articleController@artadd');
   Route::get('/artlist', 'admin\articleController@artlist');
+
 });
